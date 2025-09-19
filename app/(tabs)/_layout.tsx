@@ -25,10 +25,12 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="community"
+        name="analysis"
         options={{
-          title: 'コミュニティ',
-          tabBarIcon: ({ color }) => <Ionicons name="people-outline" size={24} color={color} />,
+          title: '分析',
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="stats-chart-outline" size={24} color={color} />
+          ),
         }}
       />
       <Tabs.Screen
